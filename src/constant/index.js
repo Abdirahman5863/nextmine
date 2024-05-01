@@ -13,13 +13,13 @@ export const Projects = [
     title: "CheesCake",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     src: "/cheeschake.png",
-    link:""
+    link:"https://cheescake.vercel.app/"
   },
     
 { id:3,
   title: "TravelList",
   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-  src: "/travellist.png",
-  link:""
+  src: "/travel.png",
+  link:"https://travel-list-murex-two.vercel.app/"
 },
 ]
