@@ -8,7 +8,7 @@ const ProjectCard = ({image,title,description,link}) => {
  
         <div className='flex flex-col items-center justify-center bg-[#FFF8E1] w-[400px] gap-5 h-[350px] shadow-lg shadow-[#FFF8E1] rounded-[41px]'>
 <div>
-    <Image src={image} alt='' width={100} height={100} className='w-[163px] h-[163px] '/>
+    <Image src={image} alt='' width={100} height={100} className='w-[200x] h-[150px] '/>
 </div>
 <div>
   <h1 className='text-[#1D2729] text-[25px] font-[700] leading-[32.57px] '>{title}</h1>

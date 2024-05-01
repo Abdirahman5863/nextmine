@@ -49,6 +49,7 @@ const AboutPage = () => {
             <span className="italic">
             “Armed with passion, perseverance, and a whole lot of code, I’m ready to take on whatever challenges come my way and continue pushing the boundaries of innovation in the tech sphere!” 🌟
          </span>
+         
             {/* BIOGRAPHY SCROLL SVG */}
             <motion.svg
               initial={{ opacity: 0.2, y: 0 }}
@@ -72,6 +73,10 @@ const AboutPage = () => {
                 strokeWidth="1"
               ></path>
             </motion.svg>
+            <button className="bg-slate-400 rounded-full p-2">
+            <a href="https://1drv.ms/b/c/25c1dc4d92840623/ERo19hZa59NAnxcms8VQ9aYB4B7qF6_vkP_9HN8Ng1wTkA?e=nKq5vM" download="cv">Download CV</a>
+            </button>
+          
           </div>
           {/* SKILLS CONTAINER */}
           <div className="flex flex-col gap-12 justify-center" ref={skillRef}>
@@ -82,6 +87,7 @@ const AboutPage = () => {
               transition={{ delay: 0.2 }}
               className="font-bold text-2xl"
             >
+
               SKILLS
             </motion.h1>
             {/* SKILL LIST */}
