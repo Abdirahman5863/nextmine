@@ -39,7 +39,10 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-            Abdirahman Abdi, hailing from Nairobi, Kenya, embarked on an exhilarating tech journey that shaped his expertise and determination. Beginning with Code 3 Camp, where he learned under industry professionals, to his tenure at Ngeni Labs, where each line of code felt like a masterpiece, Abdirahman's passion and perseverance fueled his growth. His transformative three-month internship at Ngeni further solidified his tech prowess, leading to meaningful contributions along the way. Now armed with knowledge and determination, Abdirahman is set to push the boundaries of innovation in the tech sphere, inspiring others to join him in shaping the future of technology.
+            Abdirahman Abdi, hailing from Nairobi, Kenya, embarked on an exhilarating tech journey 
+            that shaped his expertise and determination. Beginning with Code 3 Camp,
+             where he learned under industry professionals, to his tenure at Ngeni Labs,
+              where each line of code felt like a masterpiece, Abdirahmans passion and perseverance fueled his growth. His transformative three-month internship at Ngeni further solidified his tech prowess, leading to meaningful contributions along the way. Now armed with knowledge and determination, Abdirahman is set to push the boundaries of innovation in the tech sphere, inspiring others to join him in shaping the future of technology.
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
