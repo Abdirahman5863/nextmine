@@ -12,7 +12,7 @@ const ProjectCard = ({image,title,text,link}) => {
 </div>
 <div className=' flex flex-col justify-center items-center'>
   <h1 className='text-[#1D2729] text-[25px] font-[700] leading-[32.57px] '>{title}</h1>
-  <p className='font-[400] leading-[15.6px] text-[13px] text-[#555555] w-[200px]'>
+  <p className='font-[400] leading-[15.6px] text-[13px] text-[#555555] w-[300px]'>
   {text}
   </p>
 </div>
