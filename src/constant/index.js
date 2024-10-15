@@ -21,7 +21,7 @@ export const Projects = [
     
 { id:3,
   title: "Ratemypalyer",
-  text:  "RateMyPlayer is a sports rating platform built with Next.js, MongoDB, and Node.js. It lets users rate and review players, coaches, and teams, offering a seamless experience for sports enthusiasts to browse and engage with their favorites.",
+  text:  "RateMyPlayer is a sport rating platform built with Next.js, MongoDB, and Node.js. It lets users rate and review players, coaches, and teams, offering a seamless experience for sports enthusiasts to browse and engage with their favorites.",
   src: "/palyer.png",
   link:"https://player-ratings.vercel.app/"
 },
