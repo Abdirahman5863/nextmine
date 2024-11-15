@@ -1,8 +1,16 @@
 
 export const Projects = [
   {
+    "id": 1,
+    "title": "Orceordify",
+    "text": "Orecordify is a SaaS project that helps businesses with all-in-one inventory management, order processing, customer management, analytics, and notes.",
+    "src": "/image.png",
+    "link": "https://orecordify1.vercel.app/"
+  
+},
+  {
 
-    id:1,
+    id:2,
     title: "Web3Kickstarter",
     text: 
     
@@ -11,13 +19,8 @@ export const Projects = [
     link:"https://web3kickstarter-lvhm.vercel.app/"
   },
   
-{ id:2,
-    title: "CheesCake",
-    text: 
-    "Embark on a cheesecake adventure with my meticulously crafted landing page powered by TypeScript, Next.js, and Tailwind CSS, navigating visually stunning designs for a taste of perfection in every click.",
-    src: "/cheescake.png",
-    link:"https://cheescake.vercel.app/"
-  },
+  
+
     
 { id:3,
   title: "Ratemypalyer",
