@@ -8,7 +8,7 @@ const Home = () => {
 
     
 
-const [text, count] = useTypewriter({
+const [text, ] = useTypewriter({
     words: [
       "Hi,The Name's Abdirahman Abdi",
       "Fullstack Developer",
@@ -30,7 +30,7 @@ const [text, count] = useTypewriter({
       />
       <div className="z-20">
         <h2 className="text-sm uppercase text-blue-400 pb-2 tracking-[13px] ">
-          SOFTWARE Developer
+          Web Developer
         </h2>
         <h1 className="text-5xl lg-text-6xl font-semibold text-[#e1a74f] px-10">
           <span className="mr-5">{text}</span>
