@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 import { motion, useInView, useScroll } from "framer-motion";
 import Image from "next/image";
@@ -35,19 +36,25 @@ const AboutPage = () => {
               height={112}
               className="w-28 h-28 rounded-full object-cover"
             />
-            {/* BIOGRAPHY TITLE */}
-            <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
-            {/* BIOGRAPHY DESC */}
-            <p className="text-lg">
-            Abdirahman Abdi, hailing from Nairobi, Kenya, embarked on an exhilarating tech journey 
-            that shaped his expertise and determination. Beginning with Code 3 Camp,
-             where he learned under industry professionals, to his tenure at Ngeni Labs,
-              where each line of code felt like a masterpiece, Abdirahmans passion and perseverance fueled his growth. His transformative three-month internship at Ngeni further solidified his tech prowess, leading to meaningful contributions along the way. Now armed with knowledge and determination, Abdirahman is set to push the boundaries of innovation in the tech sphere, inspiring others to join him in shaping the future of technology.
-            </p>
-            {/* BIOGRAPHY QUOTE */}
-            <span className="italic">
-            “Armed with passion, perseverance, and a whole lot of code, I’m ready to take on whatever challenges come my way and continue pushing the boundaries of innovation in the tech sphere!” 🌟
-         </span>
+           <h1 class="font-bold text-2xl">BIOGRAPHY</h1>
+
+<p class="text-lg">
+  Abdirahman Abdi, hailing from Rongai, Kajiado, 
+  is a seasoned Web Developer whose journey through the realms of both Web2 and Web3 technologies has been nothing short of inspiring.
+   From his early days at the Code 3 Camp in Nairobi, where he honed his skills under the guidance of industry experts, to his impactful internships at Ngeni Labs and Zidio Development, 
+   Abdirahman has consistently demonstrated his technical prowess and dedication.
+    His role at Ngeni Labs saw him mastering blockchain-based Web3 applications, 
+    while his tenure at Zidio Development was marked by the creation of responsive, 
+    user-centric web applications. 
+    With a portfolio that spans from React and Next.js to Solidity and Hardhat, Abdirahman's
+     contributions are a testament to his commitment to innovation and excellence.
+      As he continues to explore the frontiers of technology, Abdirahman remains a beacon of inspiration, driving forward with passion and a vision for a tech-driven future.
+</p>
+
+<span class="italic">
+  “Armed with passion, perseverance, and a whole lot of code, I’m ready to take on whatever challenges come my way and continue pushing the boundaries of innovation in the tech sphere!” 🌟
+</span>
+
          
             {/* BIOGRAPHY SCROLL SVG */}
             <motion.svg
@@ -73,7 +80,7 @@ const AboutPage = () => {
               ></path>
             </motion.svg>
             <button className="bg-slate-400 rounded-full p-2">
-            <a href="https://1drv.ms/b/c/25c1dc4d92840623/ERo19hZa59NAnxcms8VQ9aYB4B7qF6_vkP_9HN8Ng1wTkA?e=nKq5vM" download="cv">Download CV</a>
+            <a href="https://docs.google.com/document/d/13MsZz9ZcqIoh3T073stI9d20E8fKX6NT5KSuIj70Cxw/edit?usp=sharing" download="cv">view CV</a>
             </button>
           
           </div>
