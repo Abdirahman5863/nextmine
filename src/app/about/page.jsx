@@ -39,7 +39,7 @@ const AboutPage = () => {
            <h1 class="font-bold text-2xl">BIOGRAPHY</h1>
 
 <p class="text-lg">
-  Abdirahman Abdi, hailing from Rongai, Kajiado, 
+  Abdirahman Abdi, hailing from Nairobi, Kenya, 
   is a seasoned Web Developer whose journey through the realms of both Web2 and Web3 technologies has been nothing short of inspiring.
    From his early days at the Code 3 Camp in Nairobi, where he honed his skills under the guidance of industry experts, to his impactful internships at Ngeni Labs and Zidio Development, 
    Abdirahman has consistently demonstrated his technical prowess and dedication.
